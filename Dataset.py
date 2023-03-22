@@ -37,6 +37,13 @@ total_samples=len(dataset)
 n_iterations = math.ceil(total_samples/4)
 
 
+data_sample=iter(data)
+
+X,y=next(data_sample)
+
+print(f"data :- {X} ,samples :- {y}")
+
+
 
 
 
